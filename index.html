@@ -1,78 +1,151 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- App CSS exterenal link -->
-    <link rel="stylesheet" href="StyleSheets/app.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Macy's</title>
-    <link rel="icon" type="image/x-icon" href="Assets/Images/favicon.ico">
-  </head>
-  <body>
-      <div class="main_container" >
-          <!-- Top most header bar -->
-        <div class="header_container">
-            <div class="row">
-              <div class="col-sm">
-                <p class="header_content_left"> We now ship to 200 locations worldwide <a href="" style="color: black; text-decoration: underline;">Details</a></p>
-              </div>
-              <div class="col-sm header_content_right">
-                <a class="header_link_right" href="#">Order Tracking</a>
-                <span class="header_link_seperator">|</span>
-                <a class="header_link_right" href="#">Stores</a>
-                <span class="header_link_seperator">|</span>
-                <a class="header_link_right" href="#">Wedding Registry</a>
-                <span class="header_link_seperator">|</span>
-                <a class="header_link_right" href="#">Shipping To</a>
-                <span><img src="Assets/Images/PK.gif" title="PK" alt="PK"></span>
+  <link rel="stylesheet" href="Assets/Libraries/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- App CSS exterenal link -->
+  <link rel="stylesheet" href="StyleSheets/app.css">
+
+  <title>Macy's</title>
+  <link rel="icon" type="image/x-icon" href="Assets/Images/favicon.ico">
+</head>
+
+<body>
+  <div class="main_container">
+    <!-- Top most header bar -->
+    <div class="header_container">
+      <div class="row">
+        <div class="col-sm">
+          <p class="header_content_left"> We now ship to 200 locations worldwide <a href=""
+              style="color: black; text-decoration: underline;">Details</a></p>
+        </div>
+        <div class="col-sm header_content_right">
+          <a class="header_link_right" href="#">Order Tracking</a>
+          <span class="header_link_seperator">|</span>
+          <a class="header_link_right" href="#">Stores</a>
+          <span class="header_link_seperator">|</span>
+          <a class="header_link_right" href="#">Wedding Registry</a>
+          <span class="header_link_seperator">|</span>
+          <a class="header_link_right" href="#">Shipping To</a>
+          <span><img src="Assets/Images/PK.gif" title="PK" alt="PK"></span>
+        </div>
+      </div>
+    </div>
+    <hr style="border: 0.5px solid #c0c0c0;">
+    <!-- Logo and search bar headder -->
+    <div class="header_logo_container">
+      <div class="row">
+        <div class="col-sm">
+          <!-- Logo png here -->
+          <a href="index.html"><img src="Assets/Images/macys-logo.png" alt="Macy's Logo" width="35%"></a>
+        </div>
+        <div class="col-sm header_content_right">
+          <!-- Search bar here -->
+          <form action="">
+            <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button id="button-addon2" type="submit" class="btn btn-link text-warning"><i class="fa fa-search"
+                      style="color: black;"></i></button>
+                </div>
+                <input type="search" placeholder="Search" aria-describedby="button-addon2"
+                  class="form-control border-0 bg-light">
               </div>
             </div>
-          </div>
-          <hr style="color: #c0c0c0;">
-          <!-- Logo and search bar headder -->
-          <div class="header_logo_container">
-            <div class="row">
-              <div class="col-sm">
-                <!-- Logo png here -->
-                <img src="Assets/Images/macys-logo.png" alt="Macy's Logo" width="35%" height="75%">
-              </div>
-              <div class="col-sm header_content_right">
-                <!-- Search bar here -->
-                <form action="">
-                    <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <button id="button-addon2" type="submit" class="btn btn-link text-warning"><i class="fa fa-search"></i></button>
-                        </div>
-                        <input type="search" placeholder="Search" aria-describedby="button-addon2" class="form-control border-0 bg-light">
-                      </div>
-                    </div>
-                  </form>
-                  <!-- Search bar end -->
-              </div>
-            </div>
-          </div>
-          <hr style="color: #c0c0c0;">
+          </form>
+          <!-- Search bar end -->
+        </div>
+        <div class="">
+          <!-- Search bar here -->
+          <a href="#"><img src="Assets/Images/macy-bag.png" alt="Macy's Logo" width="50%" style="padding-top: 7px;"></a>
+          <!-- Search bar end -->
+        </div>
+      </div>
+    </div>
+    <hr style="color: #c0c0c0; padding-bottom: 300px;;">
+    <!-- Navbar -->
 
 
+    <!-- End of the main container -->
+    </div>
 
-      
-    
+  <!-- Footer Starts here -->
+  <div class="footer" style="background-color: #F8F8F8;">
+    <div class="footer_container">
+      <div class="row">
+        <div class="col-sm">
+          <h6 class="footer_col_heading">Customer Service</h6>
+          <a href="#" class="footer_col_link">Help & FAQs</a><br>
+          <a href="#" class="footer_col_link">Order Tracking</a><br>
+          <a href="#" class="footer_col_link">Shipping & Delivery</a><br>
+          <a href="#" class="footer_col_link">Returns</a><br>
+          <a href="#" class="footer_col_link">Contact Us</a><br>
+          <a href="#" class="footer_col_link">Shipping To<span><img src="Assets/Images/PK.gif" title="PK" alt="PK"></span> PK site</a>
+        </div>
+        <div class="col-sm">
+          <h6 class="footer_col_heading">Our Stores</h6>
+          <a href="#" class="footer_col_link">Find a Store</a><br>
+          <a href="#" class="footer_col_link">Visitor Services</a><br>
+          <a href="#" class="footer_col_link">Visitor Shopping Pass</a><br>
+          <a href="#" class="footer_col_link">Tell Us What You Think</a><br>
+          <a href="#" class="footer_col_link">Macy's Backstage</a><br>
+          <a href="#" class="footer_col_link">Personal Stylist</a>
+        </div>
+        <div class="col-sm">
+          <h6 class="footer_col_heading">Macy's Inc.</h6>
+          <a href="#" class="footer_col_link">Corporate Site</a><br>
+          <a href="#" class="footer_col_link">About Macy's</a><br>
+          <a href="#" class="footer_col_link">SPress Room</a><br>
+          <a href="#" class="footer_col_link">Investors</a><br>
+          <a href="#" class="footer_col_link">Green Living</a><br>
+          <a href="#" class="footer_col_link">Macy's Gives</a>
+        
+        </div>
+        <div class="col-sm">
+          <h6 class="footer_col_heading">Macy's App</h6>
+          <a href="#" class=""><i class="fa fa-envelope-o"
+            style="color: black; padding-right: 10px;"></i>Corporate Site</a><br>
+        </div>
+      </div>
+      <hr style="border: 0.5px solid #c0c0c0; margin-top: 100px;">
+      <a href="#" class="footer_bottom_row"><img src="Assets/Images/accessibility.png" alt="Accessibility" width="5%" style="padding-right: 25px;"></a><span class="footer_col_link">Essential Accessibility</span>
+      <p class="footer_bottom_row">© 2022 Macy’s. All rights reserved. Macys.com, LLC, 151 West 34th Street, New York, NY 10001. Request our
+        corporate name & address by email. </p> 
+        <p class="footer_bottom_row" style="padding-bottom: 20px;">Privacy Notice |Cookie Preferences | Interest Based Ads | CA Privacy
+        Rights | Do Not Sell My Personal Information | Legal Notice | Customer Bill of Rights | CA Transparency in
+        Supply Chains | Product Recalls | Pricing Policy</p>
+    </div>
+  </div>
+
+<!-- Footer Ends here -->
 
     <!-- Optional JavaScript -->
     <!-- App JavaScript external link -->
     <script src="JavaScript/app.js"></script>
-    
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</div>  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+
+
+
 </body>
+
 </html>
