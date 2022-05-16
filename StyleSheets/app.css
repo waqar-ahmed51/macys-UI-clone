@@ -38,7 +38,30 @@ a.header_link_right {
 }
 
 /* Navbar */
+.nav_bar_customs{
+    background-color: white;
+    
+}
 
+.nav_bar_customs .myprimary_menu .nav-item .nav-link{
+    margin-right: 145px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    /* border: 2px solid #c0c0c0; */
+}
+.nav_bar_customs .myprimary_menu .nav-item .nav-link:hover{
+    border-bottom: 2px solid black;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: sticky;
+}
 
 /* Footer */
 .footer_container {
@@ -54,6 +77,7 @@ a.header_link_right {
 
 .footer_bottom_row {
     font-size: 12px;
+    color: black;
     margin: 5px 0px 5px 0px;
     padding: 5px 0px 5px 0px;
 }
@@ -74,7 +98,6 @@ a.header_link_right {
     font-size: larger;
     padding-right: 20px;
 }
-
 
 .store_buttons{
     padding: 10px 10px 10px 0px;;
