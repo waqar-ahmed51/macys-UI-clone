@@ -59,8 +59,14 @@ a.header_link_right {
     content: none;
 }
 
+.nav_bar_customs .myprimary_menu li a{
+    /* padding-left: 1000px; */
+    margin-top: 0%;
+    color: black;
+}
+
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: sticky;
+    position: absolute;
 }
 
 /* Footer */
@@ -102,3 +108,106 @@ a.header_link_right {
 .store_buttons{
     padding: 10px 10px 10px 0px;;
 }
+
+/* Mega Menu Dropdown  */
+.megamenu_customs{
+
+}
+
+.megamenu_container{
+    padding: 1% 8% 0% 8%;
+}
+
+.megamenu_heading{
+    font-size: 14px;
+    margin-bottom: 7px;;
+    font-weight: bold;
+}
+
+.megamenu_link{
+    font-size: 12px;
+    color: aquamarine;
+    padding: 1500px 0px 15px 0px;
+}
+
+/* Navbarside */
+.collapsible {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-top: 1px solid #c0c0c0;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  cursor: pointer;
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+.collapsible:focus{
+    outline: none;
+    border-bottom: none ;
+}
+
+.content {
+  padding: 0px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: none;
+}
+
+.sidenav_container{
+    padding: 0px 25px 0px 25px;
+}
+
+.symbol{
+    float: right; 
+    color: rgb(37, 37, 37); 
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:-8px; }
+}	
+/* ============ desktop view .end// ============ */
+
+
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+/* ============ mobile view .end// ============ */
+
+
+
