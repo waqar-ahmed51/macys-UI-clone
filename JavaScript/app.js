@@ -25,13 +25,10 @@ for (i = 0; i < coll.length; i++) {
 // Collapisable button symbol change
 
 function symbol_change(symbolStatus, symbolId){
-    var symbol = document.getElementById(symbolStatus).textContent;
-    console.log(symbol);
-    console.log(symbolStatus);
-    console.log(symbolId);
+    var symbol = document.getElementById(symbolId).textContent;
     if(symbol==='+'){
-        document.querySelector(symbolId).innerHTML = '_';
+        document.getElementById(symbolId).textContent = '-';
     }else{
-        document.querySelector(symbolId).innerHTML = '+';
+        document.getElementById(symbolId).textContent = '+';
     }
 }
