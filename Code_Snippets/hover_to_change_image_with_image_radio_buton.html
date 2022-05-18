@@ -1,0 +1,80 @@
+<html>
+
+<head>
+  <title>Image Radio Buttons and change the image</title>
+  <style>
+    .img-btn img {
+      margin: 5px;
+      width: 40px;
+      height: 40px;
+      /* border: 2px solid rgb(15, 171, 15); */
+      border-radius: 50%;
+    }
+
+    .img-btn>input {
+      display: none
+    }
+    .img-btn>input:hover+img{
+      border: 5px solid rgb(113, 113, 113);
+      border-radius: 50%;
+    }
+    
+    .img-btn>input:checked+img {
+      border: 5px solid black;
+      border-color: black;
+      border-radius: 50%;
+    }
+
+     /* .img-btn>img {
+      cursor: pointer;
+      border: 5px solid transparent;
+    } */
+
+  </style>
+</head>
+
+<body>
+  <h1> Change Image with on hover with image radio button by using JavaScript </h1>
+    <img src="../Assets/Images/product1.png" width="10%" id="1">
+    <br><br><br><br><br>
+    <hr>
+  <!-- Jeans Colors Image Radio Buttons -->
+  <label class="img-btn">
+    <input type="radio" name="product_color" checked onclick="changeImg(1)">
+    <img
+    src="../Assets/Images/jeans_colors1.png"  
+    alt="Jeans Color">
+  </label>
+  <label class="img-btn">
+    <input type="radio" name="product_color">
+    <img
+    src="../Assets/Images/jeans_colors2.png"  
+    alt="Jeans Color">
+  </label>
+  <label class="img-btn">
+    <input type="radio" name="product_color">
+    <img
+    src="../Assets/Images/jeans_colors3.png"  
+    alt="Jeans Color">
+  </label>
+  <label class="img-btn">
+    <input type="radio" name="product_color">
+    <img
+    src="../Assets/Images/jeans_colors4.png"  
+    alt="Jeans Color">
+  </label>
+  
+</body>
+<script>
+  function changeImg(product_id) {
+      var image = document.getElementById(product_id);
+      if (image.src.match("../Assets/Images/jeans_colors4.png")) {
+          image.src = "../Assets/Images/jeans_colors4.png";
+      }
+      else {
+          image.src = "../Assets/Images/jeans_colors4.png";
+      }
+  }
+</script>
+
+</html>

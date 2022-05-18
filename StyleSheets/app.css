@@ -119,10 +119,6 @@ a.header_link_right {
     padding: 10px 10px 10px 0px;;
 }
 
-/* Mega Menu Dropdown  */
-.megamenu_customs{
-
-}
 
 .megamenu_container{
     padding: 1% 8% 0% 8%;
@@ -142,6 +138,7 @@ a.header_link_right {
 
 /* Navbarside */
 .filter_area_headin{
+  margin-top: 13px;;
   font-size: 16px;
   font-weight: bold;
 }
@@ -211,10 +208,86 @@ a.header_link_right {
     margin: 0px 0px 10px 10px;
 }
 
-/* Create a custom checkbox */
-/* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-    background-color: #ff0909;
+
+/* Product Showcase */
+.search_result{
+    margin-top: -16px;
+    padding-top: -16px;;
+    position: relative;
+    font-size: 17px;
+}
+.no_items{
+    color: #E0192B;
+    font-weight: bold;
+}
+.serach_keyword{
+    font-style: italic;
+}
+
+
+
+/* Star Rating */
+.fill_star {
+    color: black;
+  }
+
+.unfill_star {
+    color: #959499;
+  }
+
+
+  .product_link, .product_link:hover{
+    color: black;
+    font-size: 15px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.product_price{
+    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product_details{
+    margin-bottom: 5px;
+    color: #E0192B;
+    font-size: small;
+}
+.product_detail_sub{
+    font-size: x-small;
+    color: #959499;
+}
+
+.coupon{
+    color: black
+}
+
+.rating_quantity{
+    font-size: small;
+}
+
+/* Image radio button for product color */
+.img-btn img {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    /* border: 2px solid rgb(15, 171, 15); */
+    border-radius: 50%;
+  }
+
+  .img-btn>input {
+    display: none
+  }
+  .img-btn>input:hover+img{
+    border: 2px solid rgb(140, 139, 139);
+    border-radius: 50%;
+  }
+  
+  .img-btn>input:checked+img {
+    border: 2px solid black;
+    border-color: black;
+    border-radius: 50%;
   }
 
 

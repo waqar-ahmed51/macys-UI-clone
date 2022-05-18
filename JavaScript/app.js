@@ -22,8 +22,8 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-// Collapisable button symbol change
 
+// Collapisable button symbol change
 function symbol_change(symbolStatus, symbolId){
     var symbol = document.getElementById(symbolId).textContent;
     if(symbol==='+'){
