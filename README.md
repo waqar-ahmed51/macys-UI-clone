@@ -5,7 +5,7 @@ I used HTML, CSS, Javascript, and Bootstrap for this clone.
 
 Complete Macy's website clone which includes:
 1. Topmost bar which includes links for different functionalities.
-2. Main logo bar includes search option UI and chart icon.
+2. Main logo bar includes search option UI and cart icon.
 3. Navbar with 8 customized CSS dropdowns which open on hover and show a full-size mega menu.
 4. Megamenu with category heading and category items in it.
 5. Side Navbar for product filtering purposes.
