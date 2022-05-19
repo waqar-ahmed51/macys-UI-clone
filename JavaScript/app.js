@@ -1,11 +1,4 @@
-console.log('Testing Javascript integration.');
-
-
-
 // Navbar side JS code
-
-
-
 
 // Side Navbar collapse Menu
 var coll = document.getElementsByClassName("collapsible");
@@ -31,4 +24,56 @@ function symbol_change(symbolStatus, symbolId){
     }else{
         document.getElementById(symbolId).textContent = '+';
     }
+}
+
+//Change product image on hover or hoverOut
+let last_img_saved='../Assets/Images/jeans_1.png';
+function change_product_color(number) {
+
+    var image = document.getElementById("product_img");
+
+    if(number===1){
+      image.src = "../Assets/Images/jeans_1.png";
+      last_img_saved='../Assets/Images/jeans_1.png'
+    }else if(number===2){
+      image.src = "../Assets/Images/jeans_2.png";
+      last_img_saved='../Assets/Images/jeans_2.png'
+    }else if(number===3){
+      image.src = "../Assets/Images/jeans_3.png";
+      last_img_saved='../Assets/Images/jeans_3.png'
+    }else if(number===4){
+      image.src = "../Assets/Images/jeans_4.png";
+      last_img_saved='../Assets/Images/jeans_4.png'
+    }
+}
+
+function hover_product_color(image, number){
+  // console.log("Hover");
+  var image = document.getElementById("product_img");
+  if(number===1){
+      image.src = "../Assets/Images/jeans_1.png";
+    }else if(number===2){
+      image.src = "../Assets/Images/jeans_2.png";
+    }else if(number===3){
+      image.src = "../Assets/Images/jeans_3.png";
+    }else if(number===4){
+      image.src = "../Assets/Images/jeans_4.png";
+    }
+}
+
+function hoverOut_product_color(image){
+  //  console.log(last_img_saved);
+  var image = document.getElementById("product_img");
+  image.src = last_img_saved;
+}
+
+function productSlideShowStart(image){
+  console.log('Hover on image');
+  var image = document.getElementById("product_img");
+  image.src = "../Assets/Images/jeans_2.png";
+}
+
+function productSlideShowStop(image){
+  var image = document.getElementById("product_img");
+  image.src = last_img_saved;
 }

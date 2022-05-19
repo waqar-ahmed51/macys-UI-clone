@@ -652,28 +652,38 @@
           </div>
           <!-- Product Content starts here -->
           <div class="col-9">
-            <p class="search_result">We found <span class="no_items">1642</span> items you might like for <span
+            <p class="search_result">We found <span class="no_items">1</span> items you might like for <span
                 class="serach_keyword">jeans</span></p>
             <!-- Product Card -->
-            <div class="card" style="width: 22rem;">
-              <img src="Assets/Images/product1.png" class="card-img-top" alt="...">
+            <div class="card" style="width: 22rem; border: none;">
+              <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
+                  onmouseover="productSlideShowStart('product_img')"
+                  onmouseout="productSlideShowStop('product_img')"></a>
               <div class="card-body">
                 <!-- Jeans Colors Image Radio Buttons -->
                 <label class="img-btn">
-                  <input type="radio" name="product_color" checked>
-                  <img src="Assets/Images/jeans_colors1.png" alt="Jeans Color">
+                  <input type="radio" name="product_color" checked onclick="change_product_color(1)">
+                  <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',1)"
+                    onmouseout="hoverOut_product_color('product_img')">
                 </label>
                 <label class="img-btn">
-                  <input type="radio" name="product_color">
-                  <img src="Assets/Images/jeans_colors2.png" alt="Jeans Color">
+                  <input type="radio" name="product_color" onclick="change_product_color(2)">
+                  <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',2)"
+                    onmouseout="hoverOut_product_color('product_img')">
                 </label>
                 <label class="img-btn">
-                  <input type="radio" name="product_color">
-                  <img src="Assets/Images/jeans_colors3.png" alt="Jeans Color">
+                  <input type="radio" name="product_color" onclick="change_product_color(3)">
+                  <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',3)"
+                    onmouseout="hoverOut_product_color('product_img')">
                 </label>
                 <label class="img-btn">
-                  <input type="radio" name="product_color">
-                  <img src="Assets/Images/jeans_colors4.png" alt="Jeans Color">
+                  <input type="radio" name="product_color" onclick="change_product_color(4)">
+                  <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',4)"
+                    onmouseout="hoverOut_product_color('product_img')">
                 </label>
                 <br>
                 <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
@@ -698,15 +708,6 @@
     </div>
     <br><br>
     <!-- Main Layout Ends here -->
-
-
-
-
-
-
-
-
-
     <!-- End of the main container -->
   </div>
 
