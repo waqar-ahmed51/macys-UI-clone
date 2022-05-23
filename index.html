@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- App CSS exterenal link -->
+  <!-- App CSS external link -->
   <link rel="stylesheet" href="StyleSheets/app.css">
+
+  <!-- App Resonsive CSS external link -->
+  <link rel="stylesheet" href="StyleSheets/app_responsive.css">
 
   <title>Macy's</title>
   <link rel="icon" type="image/x-icon" href="Assets/Images/favicon.ico">
@@ -23,10 +26,10 @@
   <div class="main_container">
     <!-- Top most header bar -->
     <div class="header_container">
-      <div class="row">
+      <div class="row ">
         <div class="col-sm">
           <p class="header_content_left"> We now ship to 200 locations worldwide <a href=""
-              style="color: black; text-decoration: underline;">Details</a></p>
+              class="header_container_detail_link">Details</a></p>
         </div>
         <div class="col-sm header_content_right">
           <a class="header_link_right" href="#">Order Tracking</a>
@@ -40,13 +43,13 @@
         </div>
       </div>
     </div>
-    <hr style="border: 0.5px solid #c0c0c0;">
+    <hr class="hr_header">
     <!-- Logo and search bar headder -->
     <div class="header_logo_container">
       <div class="row">
         <div class="col-sm">
           <!-- Logo png here -->
-          <a href="index.html"><img src="Assets/Images/macys-logo.png" alt="Macy's Logo" width="35%"></a>
+          <a href="index.html"><img src="Assets/Images/macys-logo.png" class="brand_logo" alt="Macy's Logo"></a>
         </div>
         <div class="col-sm header_content_right">
           <!-- Search bar here -->
@@ -66,7 +69,7 @@
         </div>
         <div class="">
           <!-- Search bar here -->
-          <a href="#"><img src="Assets/Images/macy-bag.png" alt="Macy's Logo" width="50%" style="padding-top: 7px;"></a>
+          <a href="#"><img src="Assets/Images/macy-bag.png" class="shopping_cart"  alt="Macy's Logo"></a>
           <!-- Search bar end -->
         </div>
       </div>
@@ -468,14 +471,14 @@
       </div>
     </nav>
 
-    <hr style="border: 0.5px solid #c0c0c0; margin-top: 15px;">
+    <hr class="hr_header" style="border: 0.5px solid #c0c0c0; margin-top: 15px;">
     <!-- Navbar End here -->
 
     <!-- Main Layout Starts here -->
     <div class="">
       <div class="">
         <div class="row">
-          <div class="col-3">
+          <div class="col-3 side_navbar_filterby">
             <!-- Side Navbar here -->
             <div class="sidenav_container">
               <h6 class="filter_area_headin">Filter By</h6>
@@ -654,327 +657,163 @@
           <div class="col-9">
             <p class="search_result">We found <span class="no_items">6</span> items you might like for <span
                 class="serach_keyword">jeans</span></p>
-            <!-- Product main container -->
-            <div class="container">
-              <div class="row">
-                <div class="col-3" style="margin-right: 90px;">
-                  <!-- Product Card -->
-                  <div class="card" style="width: 22rem; border: none;">
-                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
-                        onmouseover="productSlideShowStart('product_img')"
-                        onmouseout="productSlideShowStop('product_img')"></a>
-                    <div class="card-body">
-                      <!-- Jeans Colors Image Radio Buttons -->
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" checked
-                          onclick="change_product_color(1, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',1)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(2, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',2)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(3, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',3)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(4, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',4)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <br>
-                      <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
-                      <h6 class="product_price">PKR 8,046.07</h6>
-                      <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
-                          colors</span>
-                        <br><b>With offer PKR 6,035.57</b><br>
-                        <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select
-                          colors</span>
-                      </p>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <spam class="rating_quantity">(788)</spam>
-                    </div>
-                  </div>
-                  <!-- Product Content ends here -->
-                </div>
-                <div class="col-sm">
-                  <!-- Product Card -->
-                  <div class="card" style="width: 22rem; border: none;">
-                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
-                        onmouseover="productSlideShowStart('product_img')"
-                        onmouseout="productSlideShowStop('product_img')"></a>
-                    <div class="card-body">
-                      <!-- Jeans Colors Image Radio Buttons -->
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" checked
-                          onclick="change_product_color(1, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',1)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(2, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',2)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(3, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',3)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(4, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',4)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <br>
-                      <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
-                      <h6 class="product_price">PKR 8,046.07</h6>
-                      <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
-                          colors</span>
-                        <br><b>With offer PKR 6,035.57</b><br>
-                        <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select
-                          colors</span>
-                      </p>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <spam class="rating_quantity">(788)</spam>
-                    </div>
-                  </div>
-                  <!-- Product Content ends here -->
-                </div>
-                <div class="col-sm">
-                  <!-- Product Card -->
-                  <div class="card" style="width: 22rem; border: none;">
-                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
-                        onmouseover="productSlideShowStart('product_img')"
-                        onmouseout="productSlideShowStop('product_img')"></a>
-                    <div class="card-body">
-                      <!-- Jeans Colors Image Radio Buttons -->
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" checked
-                          onclick="change_product_color(1, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',1)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(2, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',2)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(3, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',3)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(4, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',4)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <br>
-                      <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
-                      <h6 class="product_price">PKR 8,046.07</h6>
-                      <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
-                          colors</span>
-                        <br><b>With offer PKR 6,035.57</b><br>
-                        <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select
-                          colors</span>
-                      </p>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <spam class="rating_quantity">(788)</spam>
-                    </div>
-                  </div>
-                  <!-- Product Content ends here -->
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-3" style="margin-right: 90px;">
-                  <!-- Product Card -->
-                  <div class="card" style="width: 22rem; border: none;">
-                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
-                        onmouseover="productSlideShowStart('product_img')"
-                        onmouseout="productSlideShowStop('product_img')"></a>
-                    <div class="card-body">
-                      <!-- Jeans Colors Image Radio Buttons -->
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" checked
-                          onclick="change_product_color(1, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',1)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(2, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',2)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(3, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',3)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(4, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',4)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <br>
-                      <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
-                      <h6 class="product_price">PKR 8,046.07</h6>
-                      <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
-                          colors</span>
-                        <br><b>With offer PKR 6,035.57</b><br>
-                        <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select
-                          colors</span>
-                      </p>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <spam class="rating_quantity">(788)</spam>
-                    </div>
-                  </div>
-                  <!-- Product Content ends here -->
-                </div>
-                <div class="col-sm">
-                  <!-- Product Card -->
-                  <div class="card" style="width: 22rem; border: none;">
-                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
-                        onmouseover="productSlideShowStart('product_img')"
-                        onmouseout="productSlideShowStop('product_img')"></a>
-                    <div class="card-body">
-                      <!-- Jeans Colors Image Radio Buttons -->
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" checked
-                          onclick="change_product_color(1, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',1)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(2, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',2)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(3, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',3)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(4, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',4)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <br>
-                      <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
-                      <h6 class="product_price">PKR 8,046.07</h6>
-                      <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
-                          colors</span>
-                        <br><b>With offer PKR 6,035.57</b><br>
-                        <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select
-                          colors</span>
-                      </p>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <spam class="rating_quantity">(788)</spam>
-                    </div>
-                  </div>
-                  <!-- Product Content ends here -->
-                </div>
-                <div class="col-sm">
-                  <!-- Product Card -->
-                  <div class="card" style="width: 22rem; border: none;">
-                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
-                        onmouseover="productSlideShowStart('product_img')"
-                        onmouseout="productSlideShowStop('product_img')"></a>
-                    <div class="card-body">
-                      <!-- Jeans Colors Image Radio Buttons -->
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" checked
-                          onclick="change_product_color(1, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',1)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(2, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',2)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(3, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',3)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <label class="img-btn">
-                        <input type="radio" name="product_color" onclick="change_product_color(4, 'product_img')">
-                        <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
-                          onmouseover="hover_product_color('product_img',4)"
-                          onmouseout="hoverOut_product_color('product_img')">
-                      </label>
-                      <br>
-                      <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
-                      <h6 class="product_price">PKR 8,046.07</h6>
-                      <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
-                          colors</span>
-                        <br><b>With offer PKR 6,035.57</b><br>
-                        <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select
-                          colors</span>
-                      </p>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star fill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <span class="fa fa-star unfill_star"></span>
-                      <spam class="rating_quantity">(788)</spam>
-                    </div>
-                  </div>
-                  <!-- Product Content ends here -->
-                </div>
+                <!-- Product main container -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-3">
+                      <!-- Product Card -->
+            <div class="card" style="width: auto; border: none;">
+              <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img"
+                  onmouseover="productSlideShowStart('product_img')"
+                  onmouseout="productSlideShowStop('product_img')"></a>
+              <div class="card-body">
+                <!-- Jeans Colors Image Radio Buttons -->
+                <label class="img-btn">
+                  <input type="radio" name="product_color" checked onclick="change_product_color(1, 'product_img')">
+                  <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',1)"
+                    onmouseout="hoverOut_product_color('product_img')">
+                </label>
+                <label class="img-btn">
+                  <input type="radio" name="product_color" onclick="change_product_color(2, 'product_img')">
+                  <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',2)"
+                    onmouseout="hoverOut_product_color('product_img')">
+                </label>
+                <label class="img-btn">
+                  <input type="radio" name="product_color" onclick="change_product_color(3, 'product_img')">
+                  <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',3)"
+                    onmouseout="hoverOut_product_color('product_img')">
+                </label>
+                <label class="img-btn">
+                  <input type="radio" name="product_color" onclick="change_product_color(4, 'product_img')">
+                  <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img',4)"
+                    onmouseout="hoverOut_product_color('product_img')">
+                </label>
+                <br>
+                <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
+                <h6 class="product_price">PKR 8,046.07</h6>
+                <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
+                    colors</span>
+                  <br><b>With offer PKR 6,035.57</b><br>
+                  <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select colors</span>
+                </p>
+                <span class="fa fa-star fill_star"></span>
+                <span class="fa fa-star fill_star"></span>
+                <span class="fa fa-star fill_star"></span>
+                <span class="fa fa-star unfill_star"></span>
+                <span class="fa fa-star unfill_star"></span>
+                <spam class="rating_quantity">(788)</spam>
               </div>
             </div>
+            <!-- Product Content ends here -->
+                    </div>
+                    <div class="col-3">
+                      <!-- Product Card -->
+                    <div class="card" style="width: auto; border: none;">
+                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img2"
+                    onmouseover="productSlideShowStart('product_img2')"
+                    onmouseout="productSlideShowStop('product_img2')"></a>
+                    <div class="card-body">
+                    <!-- Jeans Colors Image Radio Buttons -->
+                    <label class="img-btn">
+                    <input type="radio" name="product_color2" checked onclick="change_product_color(1, 'product_img2')">
+                    <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img2',1)"
+                    onmouseout="hoverOut_product_color('product_img2')">
+                    </label>
+                    <label class="img-btn">
+                    <input type="radio" name="product_color2" onclick="change_product_color(2, 'product_img2')">
+                    <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img2',2)"
+                    onmouseout="hoverOut_product_color('product_img2')">
+                    </label>
+                    <label class="img-btn">
+                    <input type="radio" name="product_color2" onclick="change_product_color(3, 'product_img2')">
+                    <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img2',3)"
+                    onmouseout="hoverOut_product_color('product_img2')">
+                    </label>
+                    <label class="img-btn">
+                    <input type="radio" name="product_color2" onclick="change_product_color(4, 'product_img2')">
+                    <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img2',4)"
+                    onmouseout="hoverOut_product_color('product_img2')">
+                    </label>
+                    <br>
+                    <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
+                    <h6 class="product_price">PKR 8,046.07</h6>
+                    <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
+                    colors</span>
+                    <br><b>With offer PKR 6,035.57</b><br>
+                    <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select colors</span>
+                    </p>
+                    <span class="fa fa-star fill_star"></span>
+                    <span class="fa fa-star fill_star"></span>
+                    <span class="fa fa-star fill_star"></span>
+                    <span class="fa fa-star unfill_star"></span>
+                    <span class="fa fa-star unfill_star"></span>
+                    <spam class="rating_quantity">(788)</spam>
+                    </div>
+                    </div>
+                    <!-- Product Content ends here -->
+                    </div>
+                    <div class="col-3">
+                      <!-- Product Card -->
+                    <div class="card" style="width: auto; border: none;">
+                    <a href=""><img src="Assets/Images/jeans_1.png" class="card-img-top" alt="..." id="product_img3"
+                    onmouseover="productSlideShowStart('product_img3')"
+                    onmouseout="productSlideShowStop('product_img3')"></a>
+                    <div class="card-body">
+                    <!-- Jeans Colors Image Radio Buttons -->
+                    <label class="img-btn">
+                    <input type="radio" name="product_color3" checked onclick="change_product_color(1, 'product_img3')">
+                    <img src="../Assets/Images/jeans_colors1.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img3',1)"
+                    onmouseout="hoverOut_product_color('product_img3')">
+                    </label>
+                    <label class="img-btn">
+                    <input type="radio" name="product_color3" onclick="change_product_color(2, 'product_img3')">
+                    <img src="../Assets/Images/jeans_colors2.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img3',2)"
+                    onmouseout="hoverOut_product_color('product_img3')">
+                    </label>
+                    <label class="img-btn">
+                    <input type="radio" name="product_color3" onclick="change_product_color(3, 'product_img3')">
+                    <img src="../Assets/Images/jeans_colors3.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img3',3)"
+                    onmouseout="hoverOut_product_color('product_img3')">
+                    </label>
+                    <label class="img-btn">
+                    <input type="radio" name="product_color3" onclick="change_product_color(4, 'product_img3')">
+                    <img src="../Assets/Images/jeans_colors4.png" alt="Jeans Color"
+                    onmouseover="hover_product_color('product_img3',4)"
+                    onmouseout="hoverOut_product_color('product_img3')">
+                    </label>
+                    <br>
+                    <a href="#" class="product_link"><b>Style & Co</b><br>Straight-Leg Jeans, Created for Macy's</a>
+                    <h6 class="product_price">PKR 8,046.07</h6>
+                    <p class="product_details">Extra 25% off use: SUMMER <span class="product_detail_sub">select
+                    colors</span>
+                    <br><b>With offer PKR 6,035.57</b><br>
+                    <span class="coupon">coupon excluded</span> <span class="product_detail_sub">select colors</span>
+                    </p>
+                    <span class="fa fa-star fill_star"></span>
+                    <span class="fa fa-star fill_star"></span>
+                    <span class="fa fa-star fill_star"></span>
+                    <span class="fa fa-star unfill_star"></span>
+                    <span class="fa fa-star unfill_star"></span>
+                    <spam class="rating_quantity">(788)</spam>
+                    </div>
+                    </div>
+                    <!-- Product Content ends here -->
+                    </div>
+                  </div>
+                </div>
 
-
+            
           </div>
         </div>
       </div>

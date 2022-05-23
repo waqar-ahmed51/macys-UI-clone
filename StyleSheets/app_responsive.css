@@ -1,0 +1,241 @@
+/******************** Media Query Starts here for fully responsiveness */
+/* Extra small devices (portrait phones, less than 576px) */
+
+
+@media (min-width: 10px) and (max-width: 990px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 40px;
+    }
+    .header_content_right {
+        display: none;
+    }
+    .main_container{
+        padding: 2px;
+    }
+    .header_content_left {
+        text-align: center;
+        color: #999999;
+    }
+    .hr_header{
+        margin-top: 0px;
+        display: none;
+        
+    }
+    .header_container{
+        padding: 15px;
+        background-color: #F8F8F8;
+    }
+    .header_container_detail_link{
+        color: #868686;
+    }
+    .side_navbar_filterby{
+        display: none;
+    }
+    .brand_logo{
+        width: 17%;
+        margin: 20px;
+    }
+    .shopping_cart{
+        width: 65%;
+        padding-top: 13px;;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1050px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 45px;
+    }
+    .header_content_right {
+        padding-left: 3%;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1100px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 48px;
+    }
+    .header_content_right {
+        padding-left: 8%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 50px;
+    }
+    .header_content_right {
+        padding-left: 12%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 60px;
+    }
+    .header_content_right {
+        padding-left: 16%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1250px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 65px;
+    }
+    .header_content_right {
+        padding-left: 18%;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1300px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 70px;
+    }
+    .header_content_right {
+        padding-left: 20%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1350px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 75px;
+    }
+    .header_content_right {
+        padding-left: 22%;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1400px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 80px;
+    }
+    .header_content_right {
+        padding-left: 24%;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1450px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 90px;
+    }
+    .header_content_right {
+        padding-left: 30%;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1500px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 100px;
+    }
+    .header_content_right {
+        padding-left: 32%;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1550px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 110px;
+    }
+    .header_content_right {
+        padding-left: 35%;
+    }
+}
+
+@media (min-width: 1550px) and (max-width: 1600px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 120px;
+    }
+    .header_content_right {
+        padding-left: 37%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1650px) {
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 130px;
+    }
+    .header_content_right {
+        padding-left: 38%;
+    }
+}
+
+@media (min-width: 1650px){
+    .nav_bar_customs .myprimary_menu .nav-item .nav-link {
+        margin-right: 145px;
+    }
+    .header_content_right {
+        padding-left: 40%;
+    }
+}
+
+/************************ Media Query Starts here for fully responsiveness */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Search Bar Code */
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: -8px;
+    }
+}
+
+/* ============ desktop view .end// ============ */
+
+
+.navbar .megamenu {
+    padding: 1rem;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+}
+
+/* ============ mobile view .end// ============ */

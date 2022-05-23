@@ -47,7 +47,7 @@ function change_product_color(number, img_id) {
     }
 }
 
-function hover_product_color( img_id, number){
+function hover_product_color(img_id, number){
   // console.log("Hover");
   var image = document.getElementById(img_id);
   if(number===1){
