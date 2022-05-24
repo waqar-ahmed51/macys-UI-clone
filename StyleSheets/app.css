@@ -48,6 +48,14 @@ a.header_link_right {
     color: #c0c0c0;
 }
 
+.search_bar{
+    padding-left: 30%;
+}
+
+.search_bar_small_screens{
+    margin: 5px 20px 5px 20px;
+}
+
 .brand_logo{
     width: 35%;
 }
@@ -345,6 +353,54 @@ a.header_link_right {
     border-color: black;
     border-radius: 50%;
 }
+
+
+/* Side overlay navbar for small screen CSS */
+.navbar_btn_small_screen{
+    margin: 5%;
+    font-size:30px;
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(253, 253, 253);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #070707;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #000000;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 
 
 
