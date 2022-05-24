@@ -240,15 +240,30 @@ a.header_link_right {
 
 
 /* Product Showcase */
+
 .container_products {
     margin: 0px;
     padding: 0px;
 }
 
+.product_card{
+    width: 24rem;
+    border: none;
+}
+
+.product_content{
+    padding-left: 0px;
+    margin-right: 92px;
+}
+
+.card_body{
+    margin-top: 10px;
+}
+
 .search_result {
     margin-top: -16px;
     padding-top: -16px;
-    ;
+    margin-bottom: 45px;
     position: relative;
     font-size: 17px;
 }
