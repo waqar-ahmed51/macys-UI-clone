@@ -17,7 +17,7 @@ Complete fully responsive Macy's website clone which includes:
 12. The Product card includes a star rating with the total number of feedback.
 13. Product cards include customized details about the product.
 14. Good-looking footer with different portions for different links divided into rows and columns.
-15. All components are responisve to any size of screen from laptops to small phone devices.
+15. All components are fully responisve to different size of screen from laptops to small phone devices.
 
 
 Here is the demo video of the project.
@@ -29,6 +29,8 @@ Here are some screenshots of the output.
 - Large screen view - laptop View
 
 ![Macy-s UI Laptop View](https://user-images.githubusercontent.com/54082156/170293931-eeadcd00-a06b-4bcf-ad58-de4670f5779f.png)
+
+<img width="1652" alt="Screenshot 2022-05-25 at 8 07 16 PM" src="https://user-images.githubusercontent.com/54082156/170295669-49288a8a-5b35-4495-8441-cad8b5dd8b69.png">
 
 - Medium screen view - Tablet View
 
