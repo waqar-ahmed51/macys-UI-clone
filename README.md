@@ -30,11 +30,15 @@ Here are some screenshots of the output.
 
 ![Macy-s UI Laptop View](https://user-images.githubusercontent.com/54082156/170293931-eeadcd00-a06b-4bcf-ad58-de4670f5779f.png)
 
-<img width="1652" alt="Screenshot 2022-05-25 at 8 07 16 PM" src="https://user-images.githubusercontent.com/54082156/170295669-49288a8a-5b35-4495-8441-cad8b5dd8b69.png">
-
 - Medium screen view - Tablet View
 
+![Macy-s UI Tablet View](https://user-images.githubusercontent.com/54082156/170296183-d34c27b5-7210-4c43-a323-aa056e9decff.png)
+
+![Macy-s UI Tablet Navbar View](https://user-images.githubusercontent.com/54082156/170296415-069cedba-92c6-4a54-8e7f-8a44d543a0f4.png)
+
 - Small screen view - Phone View
+
+![Macy-s UI Mobile View](https://user-images.githubusercontent.com/54082156/170296695-335918d9-77b0-4714-a345-72bf9f826d59.png)
 
 
 
