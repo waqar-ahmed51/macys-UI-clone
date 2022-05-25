@@ -1,7 +1,7 @@
 # macys-UI-clone
-For practice, I created a clone of 'https://www.macys.com/shop/search?keyword=jeans'. I created this during my internship program at NISUM Karachi. This repository is made for record purposes. I used HTML, CSS, Javascript, and Bootstrap for this clone.
+For practice, I created fully responsive clone of 'https://www.macys.com/shop/search?keyword=jeans'. I created this during my internship program at NISUM Karachi. This repository is made for record purposes. I used HTML, CSS, Javascript, and Bootstrap for this clone.
 
-Complete Macy's website clone which includes:
+Complete fully responsive Macy's website clone which includes:
 
 1. Topmost bar which includes links for different functionalities.
 2. The Main logo bar includes search option UI and cart icon.
@@ -17,13 +17,23 @@ Complete Macy's website clone which includes:
 12. The Product card includes a star rating with the total number of feedback.
 13. Product cards include customized details about the product.
 14. Good-looking footer with different portions for different links divided into rows and columns.
+15. All components are responisve to any size of screen from laptops to small phone devices.
+
+
+Here is the demo video of the project.
+
 
 
 Here are some screenshots of the output. 
 
+- Large screen view - laptop View
 
-<img width="1680" alt="Macys-UI-Clone-1" src="https://user-images.githubusercontent.com/54082156/169290285-84f06508-52b9-4234-b693-7081d9446cfc.png">
-<img width="1680" alt="Macys-UI-Clone-2" src="https://user-images.githubusercontent.com/54082156/169290316-16ecb04b-51fe-4327-80e3-966115f79ac5.png">
+![Macy-s UI Laptop View](https://user-images.githubusercontent.com/54082156/170293931-eeadcd00-a06b-4bcf-ad58-de4670f5779f.png)
+
+- Medium screen view - Tablet View
+
+- Small screen view - Phone View
+
 
 
 Note: Images may subject to copyright, I used for learing purpose. 
