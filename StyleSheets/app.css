@@ -7,13 +7,14 @@
     padding: 0%;
 }
 
-.header_container_detail_link{
-    color: black; text-decoration: underline;
+.header_container_detail_link {
+    color: black;
+    text-decoration: underline;
 }
 
-.hr_header{
+.hr_header {
     border: 0.5px solid #c0c0c0;
-    
+
 }
 
 .header_content_left {
@@ -48,21 +49,22 @@ a.header_link_right {
     color: #c0c0c0;
 }
 
-.search_bar{
+.search_bar {
     padding-left: 30%;
 }
 
-.search_bar_small_screens{
+.search_bar_small_screens {
     margin: 5px 20px 5px 20px;
 }
 
-.brand_logo{
+.brand_logo {
     width: 35%;
 }
 
-.shopping_cart{
+.shopping_cart {
     width: 50%;
-    padding-top: 7px;;
+    padding-top: 0px;
+    ;
 }
 
 /* Navbar */
@@ -146,6 +148,20 @@ a.header_link_right {
     font-weight: bold;
     font-size: larger;
     padding-right: 20px;
+}
+
+.hr_footer_links_bottom {
+    border: 0.5px solid #c0c0c0;
+    margin-top: 100px;
+}
+
+.footer_store_button {
+    width: 100px;
+}
+
+.hr_footer_seperator_small_screen {
+    display: none;
+    border: 0.5px solid #c0c0c0;
 }
 
 .store_buttons {
@@ -254,17 +270,17 @@ a.header_link_right {
     padding: 0px;
 }
 
-.product_card{
+.product_card {
     width: 24rem;
     border: none;
 }
 
-.product_content{
+.product_content {
     padding-left: 0px;
     margin-right: 92px;
 }
 
-.card_body{
+.card_body {
     margin-top: 10px;
 }
 
@@ -295,7 +311,6 @@ a.header_link_right {
 .unfill_star {
     color: #959499;
 }
-
 
 .product_link,
 .product_link:hover {
@@ -356,10 +371,11 @@ a.header_link_right {
 
 
 /* Side overlay navbar for small screen CSS */
-.navbar_btn_small_screen{
-    margin: 5%;
-    font-size:30px;
-    cursor:pointer;
+.navbar_btn_small_screen {
+    /* margin: 5%; */
+    margin-left: 10%;
+    font-size: 30px;
+    cursor: pointer;
     color: rgb(0, 0, 0);
 }
 
@@ -370,41 +386,38 @@ a.header_link_right {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #070707;
+    color: #010101;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #000000;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav a:hover {
+    color: #b5b5b5;
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: -10px;
     left: 100px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}
 
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
 
-
-
-
-
-
+    .sidenav a {
+        font-size: 18px;
+    }
+}
