@@ -17,7 +17,7 @@ Complete fully responsive Macy's website clone which includes:
 12. The Product card includes a star rating with the total number of feedback.
 13. Product cards include customized details about the product.
 14. Good-looking footer with different portions for different links divided into rows and columns.
-15. All components are fully responisve to different size of screen from laptops to small phone devices.
+15. All components are fully responisve to different size of screens from laptops to small phone devices.
 
 
 Here is the demo video of the project.
