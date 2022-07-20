@@ -4,7 +4,7 @@ For practice, I created fully responsive clone of macys.com page. I created this
 Click this link to view live demo:
 https://waqar-ahmed51.github.io/macys-UI-clone/
 
-Complete fully responsive Macy's website clone which includes:
+Complete fully responsive Macy's page clone which includes:
 
 1. Topmost bar which includes links for different functionalities.
 2. The Main logo bar includes search option UI and cart icon.
