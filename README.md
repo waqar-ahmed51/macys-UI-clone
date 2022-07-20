@@ -1,6 +1,9 @@
 # macys-UI-clone
 For practice, I created fully responsive clone of 'https://www.macys.com/shop/search?keyword=jeans'. I created this during my internship program at NISUM Karachi. This repository is made for record purposes. I used HTML, CSS, Javascript, and Bootstrap for this clone.
 
+Click link below to view live demo:
+https://waqar-ahmed51.github.io/macys-UI-clone/
+
 Complete fully responsive Macy's website clone which includes:
 
 1. Topmost bar which includes links for different functionalities.
